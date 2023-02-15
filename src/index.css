@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.box {
+  display: inline-block;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.img-preview {
+  overflow: hidden;
+}
+
+.flex_container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cropper {
+  max-height: 400px;
+  margin: 0 10%;
+}
